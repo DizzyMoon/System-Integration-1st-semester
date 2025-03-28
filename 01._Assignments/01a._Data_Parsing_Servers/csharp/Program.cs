@@ -1,9 +1,9 @@
 ﻿DataParsing dp = new();
 
-        string json_ref = "/home/mikkel/repos/System-Integration-1st-semester/01._Assignments/01a._Data_Parsing_Servers/data/me.json";
-        string yaml_ref = "/home/mikkel/repos/System-Integration-1st-semester/01._Assignments/01a._Data_Parsing_Servers/data/me.yaml";
-        string xml_ref = "/home/mikkel/repos/System-Integration-1st-semester/01._Assignments/01a._Data_Parsing_Servers/data/me.xml";
-        string csv_ref = "/home/mikkel/repos/System-Integration-1st-semester/01._Assignments/01a._Data_Parsing_Servers/data/me.csv";
+        string json_ref = "/home/mikkel/repos/System-Integration-1st-semester/01._Assignments/01a._Data_Parsing_Servers/data1/bob.json";
+        string yaml_ref = "/home/mikkel/repos/System-Integration-1st-semester/01._Assignments/01a._Data_Parsing_Servers/data1/bob.yaml";
+        string xml_ref = "/home/mikkel/repos/System-Integration-1st-semester/01._Assignments/01a._Data_Parsing_Servers/data1/bob.xml";
+        string csv_ref = "/home/mikkel/repos/System-Integration-1st-semester/01._Assignments/01a._Data_Parsing_Servers/data1/bob.csv";
 
         Console.WriteLine("######## JSON ########");
         PrintDictionary(dp.json_to_dict(json_ref));

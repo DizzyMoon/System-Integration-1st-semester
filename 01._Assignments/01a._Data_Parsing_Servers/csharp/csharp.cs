@@ -59,10 +59,10 @@ class Run {
     static void Main() {
         DataParsing dp = new DataParsing();
 
-        string json_ref = "../data/me.json";
-        string yaml_ref = "../data/me.yaml";
-        string xml_ref = "../data/me.xml";
-        string csv_ref = "../data/me.csv";
+        string json_ref = "../data1/bob.json";
+        string yaml_ref = "../data1/bob.yaml";
+        string xml_ref = "../data1/bob.xml";
+        string csv_ref = "../data1/bob.csv";
 
         Console.WriteLine("######## JSON ########");
         PrintDictionary(dp.json_to_dict(json_ref));
